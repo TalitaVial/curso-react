@@ -1,4 +1,4 @@
-.task-container{
+.task-container {
   background-color: #444;
   margin: 8px 0;
   padding: 15px 20px;
@@ -8,4 +8,17 @@
   color: #eee;
   align-items: center;
   cursor: pointer;
+}
+
+.task-title {
+  cursor: pointer;
+  color: #eee;
+}
+
+.remove-task-button,
+.see-task-details-button {
+  background-color: #444;
+  border: none;
+  font-size: 24px;
+  color: chartreuse;
 }
